@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\simple-crud-angular-net\\api\\api\\api\\api.csproj",
+      "projectUniqueName": "E:\\simple-crud-angular-net\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "E:\\simple-crud-angular-net\\api\\api\\api\\api.csproj",
+      "projectPath": "E:\\simple-crud-angular-net\\api\\api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\simple-crud-angular-net\\api\\api\\api\\obj\\",
+      "outputPath": "E:\\simple-crud-angular-net\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

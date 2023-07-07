@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y96jkoyxBchrAVjLIKuINTNg9h8P4hU5EA18tw9xPbeXi6mG+RTlBfXFq7b61N2UJnPpBHMt16C8fOzOWNH/xw==",
+  "dgSpecHash": "DzTjl3kXliKRaEIPG2avA97Dwzz3nBhpACah7C8Nzl3LW3T4hKyGX3P3zKYXVryknNbAFHLTvz0g3oyDFMYDwQ==",
   "success": true,
-  "projectFilePath": "E:\\simple-crud-angular-net\\api\\api\\api\\api.csproj",
+  "projectFilePath": "E:\\simple-crud-angular-net\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
