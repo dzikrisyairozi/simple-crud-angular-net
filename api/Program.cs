@@ -1,5 +1,5 @@
-using Microsoft.EntityFrameworkCore;
 using api.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +18,6 @@ builder.Services.AddCors(options => options.AddPolicy(name: "SuperHeroOrigins",
     {
         policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
     }));
-
 
 var app = builder.Build();
 
