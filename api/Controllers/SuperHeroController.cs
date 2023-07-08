@@ -48,5 +48,18 @@ namespace api.Controllers
             return Ok(await _context.SuperHeroes.ToListAsync());
         }
 
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<List<SuperHero>>> DeleteSuperHero(int id)
+        {
+            var dbHero = await _context.SuperHeroes.FindAsync(id);
+            if (dbHero == null)
+                return BadRequest("Hero not found.");
+
+            _context.SuperHeroes.Remove(dbHero);
+            await _context.SaveChangesAsync();
+
+            return Ok(await _context.SuperHeroes.ToListAsync());
+        }
+
     }
 }
